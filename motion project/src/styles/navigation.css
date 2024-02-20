@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  column-gap: 12px;
+}
+
+nav button {
+  padding: 8px 16px;
+  background-color: #535c91;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

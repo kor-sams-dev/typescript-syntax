@@ -1,0 +1,46 @@
+article {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  column-gap: 12px;
+  -webkit-box-shadow: 5px 5px 15px -8px #fff, -5px -5px 15px -8px #fff;
+  box-shadow: 5px 5px 15px -8px #fff, -5px -5px 15px -8px #fff;
+}
+
+article.text {
+  padding: 24px 12px;
+}
+
+article img {
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+article section {
+  flex: 1;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+article h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+article p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+article button {
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
